@@ -11,9 +11,6 @@ steps:
   inputs:
     version: '16.x'  # Adjust based on your web app's runtime
 
-- task: Npm@1
-  inputs:
-    command: 'install'
 
 - task: ArchiveFiles@2
   inputs:
